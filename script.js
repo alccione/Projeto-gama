@@ -21,6 +21,6 @@ function validarDados() {
         mensagem.focus();
         return false;
     }
-    dados.innerHTML = "<h2>Agradecemos pelo contato e embreve retornaremos!</h2> <p>Nome: " + nomeCompleto.value + "<br> E-mail: " + email.value + "<br> Telefone: " + telefone.value + "<br> Mensagem: " + mensagem.value + ".</p>";
+    dados.innerHTML = "<h2>Agradecemos pelo contato e embreve retornaremos!</h2> <p>Nome: " + nomeCompleto.value + "<br> E-mail: " + email.value + "<br> Celular: " + telefone.value + "<br> Mensagem: " + mensagem.value + ".</p>";
     return false;
 }
