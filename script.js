@@ -16,7 +16,12 @@ function validarDados() {
         email.focus();
         return false;
     }
-    if (mensagem.value == "") {
+    if (telefone.value == "") {
+        alert("O campo celular não pode ficar vazio...");
+        telefone.focus();
+        return false;
+    }
+        if (mensagem.value == "") {
         alert("O campo Mensagem não pode ficar vazio...");
         mensagem.focus();
         return false;
