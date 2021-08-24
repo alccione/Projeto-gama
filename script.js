@@ -7,20 +7,20 @@ function validarDados() {
     var mensagem = document.getElementById("campo4");
     var dados = document.getElementById("msg");
     if (nomeCompleto.value == "") {
-        alert("O campo nomeCompleto não pode ficar vazio...");
+        alert("O campo Nome não pode ficar vazio...");
         nomeCompleto.focus();
         return false;
     }
     if (email.value == "") {
-        alert("O campo email não pode ficar vazio...");
+        alert("O campo E-mail não pode ficar vazio...");
         email.focus();
         return false;
     }
     if (mensagem.value == "") {
-        alert("O campo mensagem não pode ficar vazio...");
+        alert("O campo Mensagem não pode ficar vazio...");
         mensagem.focus();
         return false;
     }
-    dados.innerHTML = "<h2>Agradecemos pelo contato e embreve retornaremos!</h2> <p>NomeCompleto: " + nomeCompleto.value + "<br> E-mail: " + email.value + "<br> Celular: " + telefone.value + "<br> Mensagem: " + mensagem.value + ".</p>";
+    dados.innerHTML = "<h2>Agradecemos pelo contato e embreve retornaremos!</h2> <p>Nome: " + nomeCompleto.value + "<br> E-mail: " + email.value + "<br> Telefone: " + telefone.value + "<br> Mensagem: " + mensagem.value + ".</p>";
     return false;
 }
